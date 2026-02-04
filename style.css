@@ -1,3 +1,4 @@
-.body{ text-align: center; }
-.collectes{ text-align: left; }
+.body{ width:100%; text-align: center; }
+.collectes{ width:80%; padding:20px; text-align: left; }
 #logo{ width:200px; }
+#stand{ width:200px; }
