@@ -68,11 +68,11 @@ font-size: 1.5em;
 
 }
 
-.event-adress {
+.event-adress-drome, .event-adress-isere{
     color: #777;
 }
 
-.event-link {
+.event-link-drome, .event-link-isere {
     display: inline-block;
     background-color: #007BFF;
     color: white;
@@ -81,15 +81,19 @@ font-size: 1.5em;
     border-radius: 5px;
 }
 
-upcoming-events > h2 > .drome { color: #007BFF; }
-.drome > .event-link { background-color: #007BFF; }
-upcoming-events > h2 > .isere { color: #00c5d6; }
-.isere > .event-link { background-color: #00c5d6; }
- 
- 
-.event-link:hover {
+.event-link-drome:hover, .event-link-isere:hover {
     background-color: #0056b3;
 }
+
+.drome { color: #007BFF; }
+.event-adress-drome > strong { color: #007BFF; }
+.event-link-drome { background-color: #007BFF; }
+
+.isere { color: #00c5d6; }
+.event-adress-isere > strong { color: #00c5d6; }
+.event-link-isere { background-color: #00c5d6; }
+ 
+ 
 
 #logo{ width:200px; display:block; margin: 20px auto 20px auto; }
 #stand{ width:200px; display:block; margin: 20px auto 20px auto; }
