@@ -23,7 +23,8 @@ section {
 }
 .info > p {
     padding: 0px;
-    margin: 3px;
+    margin: 0px;
+	margin-top: 5px;
 }
 
 .info h3 {
