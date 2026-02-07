@@ -81,8 +81,10 @@ font-size: 1.5em;
     border-radius: 5px;
 }
 
-.valence > .event-link { background-color: #007BFF; }
-.vienne > .event-link { background-color: #00c5d6; }
+upcoming-events > h2 > .drome { color: #007BFF; }
+.drome > .event-link { background-color: #007BFF; }
+upcoming-events > h2 > .isere { color: #00c5d6; }
+.isere > .event-link { background-color: #00c5d6; }
  
  
 .event-link:hover {
