@@ -90,10 +90,8 @@ font-size: 1.5em;
 .event-link-drome { background-color: #007BFF; }
 
 .isere { color: #00c5d6; }
-.event-adress-isere > strong { color: #00c5d6; }
-.event-link-isere { background-color: #00c5d6; }
- 
- 
+.event-adress-isere > strong { color: #00acbe; }
+.event-link-isere { background-color: #00c5d6; } 
 
 #logo{ width:200px; display:block; margin: 20px auto 20px auto; }
 #stand{ width:200px; display:block; margin: 20px auto 20px auto; }
