@@ -71,7 +71,11 @@ font-size: 1.5em;
 .event-adress {
     color: #777;
 }
- 
+
+.event-adress > strong {
+	color : #007BFF;
+}
+
 .event-link {
     display: inline-block;
     background-color: #007BFF;
