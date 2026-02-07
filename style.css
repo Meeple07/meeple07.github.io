@@ -43,7 +43,7 @@ section {
 .info-link:hover {
     background-color: #E36A01;
 }
- 
+
 .event {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -72,10 +72,6 @@ font-size: 1.5em;
     color: #777;
 }
 
-.event-adress > strong {
-	color : #007BFF;
-}
-
 .event-link {
     display: inline-block;
     background-color: #007BFF;
@@ -84,6 +80,10 @@ font-size: 1.5em;
     text-decoration: none;
     border-radius: 5px;
 }
+
+.valence > .event-link { background-color: #007BFF; }
+.vienne > .event-link { background-color: #00c5d6; }
+ 
  
 .event-link:hover {
     background-color: #0056b3;
