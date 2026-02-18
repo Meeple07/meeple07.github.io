@@ -31,26 +31,13 @@ section {
     margin-top: 0;
 }
  
-.info-link {
-    display: inline-block;
-    background-color: #FF7701;
-    color: white;
-    padding: 7px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-}
- 
-.info-link:hover {
-    background-color: #E36A01;
-}
-
-.event {
+.event, .event-past {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
 }
- 
+
 .event h3 {
     margin-top: 0;
 }
@@ -95,3 +82,12 @@ font-size: 1.5em;
 
 #logo{ width:200px; display:block; margin: 20px auto 20px auto; }
 #stand{ width:200px; display:block; margin: 20px auto 20px auto; }
+
+.event-past, .event-past > * {
+    color:#888888;
+	font-style: italic;
+}
+
+.event-past > .event-link-isere, .event-past > .event-link-drome {
+    color:#DDDDDD;
+}
